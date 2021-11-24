@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIContagem", "APIContagem\APIContagem.csproj", "{C2B825A9-0D40-4EA6-A0B1-0C09FF7F7C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerConsumoApiContagem", "WorkerConsumoApiContagem\WorkerConsumoApiContagem.csproj", "{BA928692-326A-4F5E-8ACC-37D97A865CCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2B825A9-0D40-4EA6-A0B1-0C09FF7F7C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B825A9-0D40-4EA6-A0B1-0C09FF7F7C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B825A9-0D40-4EA6-A0B1-0C09FF7F7C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B825A9-0D40-4EA6-A0B1-0C09FF7F7C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA928692-326A-4F5E-8ACC-37D97A865CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA928692-326A-4F5E-8ACC-37D97A865CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA928692-326A-4F5E-8ACC-37D97A865CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA928692-326A-4F5E-8ACC-37D97A865CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A9BC584-BD7C-43B1-9132-260A42683E8F}
+	EndGlobalSection
+EndGlobal
