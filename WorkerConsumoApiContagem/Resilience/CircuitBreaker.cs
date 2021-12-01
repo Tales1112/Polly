@@ -23,7 +23,7 @@ namespace WorkerConsumoApiContagem.Resilience
         {
             return Policy
                 .Handle<Exception>()
-                .CircuitBreakerAsync(5, TimeSpan.FromSeconds(10),
+                .CircuitBreakerAsync(3, TimeSpan.FromSeconds(10),
                 onBreak: (_, _) =>
                 {
                     ShowCircuitState("Open (onBreak)", ConsoleColor.Red);

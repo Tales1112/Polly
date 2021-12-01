@@ -31,7 +31,7 @@ namespace APIContagem.Controllers
                 valorAtualContador = _Contador.ValorAtual;
             }
 
-            if(valorAtualContador % 4 == 0)
+            if(valorAtualContador % 4 != 0)
             {
                 _logger.LogError("Simulando falha...");
                 throw new Exception("Simelando falha!");
